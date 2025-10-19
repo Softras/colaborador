@@ -9,8 +9,8 @@ st.set_page_config(
 )
 
 # CSS personalizado
-personalizado = "estilos.md"
-st.markdown(personalizado, unsafe_allow_html=True)
+with open("estilos.md") as arq:
+    st.markdown(f"{arq.read()}", unsafe_allow_html=True)
 
 # Páginas do sistema
 pages = {

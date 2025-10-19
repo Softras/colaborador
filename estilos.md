@@ -1,15 +1,15 @@
 <style>
+#MainMenu {visibility: hidden;}
+.stHeader {visibility: hidden;}
+
 .main {
-    background-color: #1e1e1e;
+    background-color:black;
     color: white;
 }
 
 .stApp {
-    background-color: #2d2d2d;
-}
-
-.css-1d391kg {
-    background-color: #2d2d2d;
+    background-color: #808080;
+    color: white;
 }
 
 .stTextInput > div > div > input {
@@ -57,10 +57,10 @@ h1 {
 
 /* Estilo do navegador superior */
 .st-emotion-cache-1jicfl2 {
-    background-color: #333 !important;
+    background-color: #353333ff !important;
 }
 
 .st-emotion-cache-1jicfl2 .st-emotion-cache-10trblm {
-    color: white !important;
+    color: #333 !important;
 }
 </style>
